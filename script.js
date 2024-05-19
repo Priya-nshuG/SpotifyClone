@@ -16,7 +16,7 @@ async function getSongs(folder) {
     return songs
 }
 async function getFolders() {
-    let a = await fetch("/songs/")  //192.168.43.235:5500 //localhost:5500
+    let a = await fetch("http://192.168.43.235:5500/songs/")  //192.168.43.235:5500 //localhost:5500
     let response = await a.text()
     let anotherDiv = document.createElement("div")
     anotherDiv.innerHTML = response
