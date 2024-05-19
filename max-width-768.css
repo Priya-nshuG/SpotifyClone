@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+    .left {
+        position: absolute;
+        z-index: 5;
+        translate: -105%;
+        opacity: 0;
+        height: 95%;
+        width: 60vw;
+        position: fixed;
+        overflow-y: hidden;
+        gap: 0;
+        border-radius: 1rem;
+    }
+    .left .top {
+        border-radius: 0;
+    }
+    .left .bottom {
+        border-radius: 0;
+    }
+    .right {
+        width: 100%;
+    }
+
+    .player {
+        left: 5%;
+        width: 90%;
+    }
+    .burger{
+        display: flex;
+        align-items: center;
+    }
+    .close{
+        width: min-content;
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        display: block;
+    }
+}

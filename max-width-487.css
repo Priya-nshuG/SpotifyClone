@@ -1,0 +1,32 @@
+@media (max-width: 487px) {
+    .main {
+        padding-bottom: 8rem;
+    }
+
+    .top-part {
+        gap: 1rem;
+        flex-direction: column;
+    }
+        
+    .common1 {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .main h2 {
+        text-align: center;
+    }
+    .temporary{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 365px){
+    .left{
+        width: 95%;
+    }
+}
+@media (max-width: 395px) {
+    .card:hover .play{
+        left: 55%;
+    }
+}

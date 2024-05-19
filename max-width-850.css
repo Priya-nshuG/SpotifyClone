@@ -1,0 +1,38 @@
+@media (max-width: 850px) {
+    .main h2{
+        font-size: 1.5rem;
+    }
+    .top img {
+        width: 6rem;
+    }
+    .options {
+        font-size: 0.9rem;
+    }
+    .bt-top img {
+        width: 0.7rem;
+    }
+    .bt-left img {
+        width: 1rem !important;
+    }
+    .bt-top {
+        font-size: 0.9rem;
+    }
+    .scroll .music-name {
+        font-size: 0.6rem;
+    }
+    .bt-foot{
+        font-size: 0.4rem;
+    }
+    .lang{
+        font-size: 0.7rem;
+    }
+    .lang img {
+        width: 0.6rem;
+    }
+    .sub-opt img {
+        width: 1rem;
+    }
+    .songinfo, .time {
+        font-size: 0.6rem;
+    }
+}

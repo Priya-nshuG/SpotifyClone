@@ -1,0 +1,14 @@
+@media (max-width: 320px) {
+    .log {
+        padding: 0.4rem 0.7rem;
+    }
+    .nav-right {
+        gap: 1rem;
+    }
+    .log, .sign {
+        font-size: 0.6rem;
+    }
+    .temporary{
+        font-size: 0.5rem;
+    }
+}

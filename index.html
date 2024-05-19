@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="max-width-850.css">
+    <link rel="stylesheet" href="max-width-768.css">
+    <link rel="stylesheet" href="max-width-487.css">
+    <link rel="stylesheet" href="max-width-320.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div class="temporary">
+        <h1>Oops!</h1>
+        <h2>We Are Not Connected To The Backend</h2>
+        <p>Sorry for inconvenience</p>
+        <div class="select btn">Close</div>
+    </div>
+    <div class="container flex">
+        <div class="left">
+            <div class="select close"><img src="close.svg" alt=""></div>
+            <div class="top">
+                <img src="logo.svg" alt="">
+                <div class="options">
+                    <div class="select sub-opt flex not-clickable">
+                        <img src="home.svg" alt="">
+                        <a href="#">Home</a>
+                    </div>
+                    <div class="select sub-opt flex not-clickable">
+                        <img src="search.svg" alt="">
+                        <a href="#">Search</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="bt-top">
+                    <div class="bt-left">
+                        <img src="library.svg" alt="">
+                        Your Library
+                    </div>
+                    <img class="c select not-clickable" src="add.svg" alt="">
+                </div>
+                <div class="scroll">
+                    <!--All songs will be displayed in tiles inside here-->
+                    
+                </div>
+                <div class="select bt-foot">
+                    <h4>Legal</h4>
+                    <h4>Safety & Privacy Center</h4>
+                    <h4>Privacy Policy</h4>
+                    <h4>Cookies</h4>
+                    <h4>About Ads</h4>
+                    <h4>Accessibility</h4>
+                    <h4>Cookies</h4>
+                </div>
+                <button class="select lang">
+                    <img src="lang.svg" alt="">
+                    English
+                </button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="nav">
+                <div class="nav-left">
+                    <div class="select burger"><img src="burger.svg" alt=""></div>
+                </div>
+                <div class="nav-right">
+                    <div class="select sign not-clickable">Sign up</div>
+                    <div class="select log not-clickable">Login in</div>
+                </div>
+            </div>
+            <div class="main">
+                <h2>Spotify Playlists</h2>
+                <div class="playlists">
+                </div>
+            </div>
+            <div class="player">
+                <div class="top-part">
+                    <div class="songinfo common1">
+
+                    </div>
+                    <div class="songsbtn common1">
+                        <img class="select" id="prev" src="prev.svg" alt="">
+                        <img class="select" id="play" src="songPlay.svg" alt="">
+                        <img class="select" id="forw" src="forw.svg" alt="">
+                    </div>
+                    <div class="time common1">
+                    
+                    </div>
+                </div>
+                <div class="select seekbar">
+                    <div class="select line">
+                        <div class="select circle" draggable="false"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
