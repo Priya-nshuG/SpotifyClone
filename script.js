@@ -16,7 +16,7 @@ async function getSongs(folder) {
     return songs
 }
 async function getFolders() {
-    let a = await fetch("https://api.github.com/repos/Priya-nshuG/SpotifyClone/contents/songs")  //192.168.43.235:5500 //localhost:5500
+    let a = await fetch("https://raw.githubusercontent.com/Priya-nshuG/SpotifyClone/main/songs")  //192.168.43.235:5500 //localhost:5500
     let response = await a.text()
     console.log(response)
     let anotherDiv = document.createElement("div")
@@ -246,3 +246,4 @@ async function main() {
 main()
 
 changeSeekbarByUser()
+
